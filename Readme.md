@@ -200,7 +200,10 @@ https://github.com/nadeemahmed12
 
 - Private rooms
 - Mobile responsive UI
-- Word difficulty levels
+- Hints (reveal letters over time)
+- Word categories (animals, objects, etc.)
 - Drawing brush size
 - Leaderboard
-- Authentication system
+- Kick/ban (host moderation)
+- Votekick
+- Multiple languages for word list
