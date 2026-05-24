@@ -18,9 +18,7 @@ const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
     origin: [
-      "http://localhost:5173",
-      "https://skribble-clone-assignment.vercel.app",
-      "https://skribble-clone-bf2ci7t8f.vercel.app",
+      "https://skribble-clone-assignment.vercel.app/"
     ],
     methods: ["GET", "POST"],
   },
