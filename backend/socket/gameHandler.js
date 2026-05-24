@@ -7,8 +7,8 @@ function startRoundTimer(io, roomManager, roomId) {
     return;
   }
 
-  //room.gameState.timeLeft = room.settings.drawTime;
-  room.gameState.timeLeft = 10;
+  room.gameState.timeLeft = room.settings.drawTime;
+  // room.gameState.timeLeft = 10;
 
   const timer = setInterval(() => {
     room.gameState.timeLeft--;
