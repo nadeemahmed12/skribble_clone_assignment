@@ -20,6 +20,7 @@ const io = new Server(server, {
     origin: [
       "http://localhost:5173",
       "https://skribble-clone-assignment.vercel.app",
+      "https://skribble-clone-bf2ci7t8f.vercel.app",
     ],
     methods: ["GET", "POST"],
   },
